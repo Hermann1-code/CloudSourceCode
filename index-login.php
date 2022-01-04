@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/0133a29CSS/CloudCode01.css">
     <link rel="stylesheet" href="styles/0133a29CSS/CloudCode02.css">
     <link rel="stylesheet" href="styles/0133a29CSS/CloudCode-register.css">
-    <title>Register With Us</title>
+    <title>Log In With Us</title>
   </head>
   <body>
     <!-- <header>
@@ -58,26 +58,14 @@
       <div></div>
     </div> -->
 
-    <div class="loader-container">
-        <img src="styles/0133a29IMG/0133a29SVG/loader.gif" alt="Loading..." class="loader"/>
-    </div>
+    <!-- <div class="loader">
+        <img src="styles/0133a29IMG/0133a29SVG/loader.gif" alt="Loading..." />
+    </div> -->
     <!-- <h2 id="title">Custom Loader - dcode</h2>
     <img src="image1.jpg" class="thumb" alt="png" />
     <img src="image2.jpg" class="thumb" alt="png" />
     <img src="image3.jpg" class="thumb" alt="png" /> -->
 
-    <!-- <div class="loader-container">
-        <div class="loader"></div>
-    </div> -->
-<script>
-    // loader
-function showContent() {
-document.querySelector('.loader-container').classList.add('hidden');
-}
-
-setTimeout(showContent, 3000)
-
-</script>
 
 
 
@@ -93,12 +81,12 @@ setTimeout(showContent, 3000)
           </div>
           <div class="cta">
             <a href="index.php"><button class="cta-select"> Return</button></a>
-            <a href="index-login.php?securityform"><button class="cta-add">Log In</button></a>
+            <a href="index-register.php?securityform"><button class="cta-add">Register</button></a>
           </div>
           <div class="webappSocials">
             <span>Or</span>
           </div>
-          <p style="text-align: center;color: #0c0959;">You can use this account to register to any of our products</p>
+          <p style="text-align: center;color: #0c0959;">Sign in to access all free resources</p>
           <div class="socials">
             <button class="gmail-social btn-effect-8" >
               <i class="fab fa-google fa-1x" style="margin-right: 15px;color: #dd4b39;"></i>Google
@@ -108,9 +96,8 @@ setTimeout(showContent, 3000)
             </button>
           </div>
         </div>
-        
         <!-- register form -->
-        <div class="cover" style="margin-top: 10px">
+        <div class="cover" style="margin-top: 90px">
           <div class="container">
             <form id="form-regist" class="form">
               <div class="rightcode">
@@ -120,20 +107,10 @@ setTimeout(showContent, 3000)
                     <circle opacity="0.5" cx="33" cy="11" r="11" fill="#0c0959ab" />
                 </svg>CloudSourceCode..
               </div>
-              <h2 style="display: inline-block;">Register With Us</h2>
-              <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter username" />
-                <small>Error message</small>
-              </div>
+              <h2 style="display: inline-block;">Log In With Us</h2>
               <div class="form-control">
                 <label for="email">Email</label>
                 <input type="text" required id="email" placeholder="Enter email" autocomplete="off"/>
-                <small>Error message</small>
-              </div>
-              <div class="form-control">
-                <label for="postal-code">Postal Code</label>
-                <input type="number" id="postal-code" placeholder="Enter postal code" />
                 <small>Error message</small>
               </div>
               <div class="form-control">
@@ -147,7 +124,8 @@ setTimeout(showContent, 3000)
                 />
                 <small>Error message</small>
               </div>
-              <button class="btn-effect-8">Register</button>
+              <button class="btn-effect-8">Log In</button>
+              <p><a href="#" class="forgotPass UnderlinesAnim">Forgot your password ?</a></p>
             </form>
           </div>
           <!-- <img src="https://i.ibb.co/FJrnpsL/matebook.png" alt="Matebook" /> -->

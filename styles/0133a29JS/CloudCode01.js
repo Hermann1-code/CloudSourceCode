@@ -147,15 +147,3 @@ reg_eyes.forEach((eye) => {
   });
 });
 
-
-// loader
-// function showContent() {
-//   document.querySelector('.spinner').classList.add('hidden');
-// }
-  
-// setTimeout(showContent, 3000)
-
-window.addEventListener("load", function () {
-  const loader = document.querySelector(".loader");
-  loader.className += " hiddens"; // class "loader hidden"
-});
